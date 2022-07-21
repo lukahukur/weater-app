@@ -24,6 +24,11 @@
 
  
 }
+#link
+{
+    color: white;
+    font-size: 16px;
+}
 #w{
 
 display: flex;
@@ -106,7 +111,7 @@ flex-direction: column;
     margin-top: 20px;
 }
 #otherInfo{
-    margin-top:25px ;
+    margin-top:0px ;
 }
 #err{
     width: 80%;
@@ -115,4 +120,27 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 22px;
+}
+.fiveDayForecast{
+    height: 700px;
+
+}
+
+.map
+{
+    display: flex;
+    text-decoration: none;
+    border: 1px solid red;
+    justify-content: space-between;
+    width: 300px;
+}
+.miniIco
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+.dv
+{
+
 }
